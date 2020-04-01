@@ -14,7 +14,18 @@
                     <view key="view" contentMode="scaleToFill" id="Ozb-tn-Uhn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tictactoe" translatesAutoresizingMaskIntoConstraints="NO" id="qgg-gW-P6w">
+                                <rect key="frame" x="62" y="363.5" width="290" height="179"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="qgg-gW-P6w" firstAttribute="width" secondItem="Ozb-tn-Uhn" secondAttribute="width" multiplier="0.7" id="34I-nQ-9an"/>
+                            <constraint firstItem="qgg-gW-P6w" firstAttribute="centerY" secondItem="W2r-gM-Xms" secondAttribute="centerY" id="DP4-1f-oun"/>
+                            <constraint firstItem="qgg-gW-P6w" firstAttribute="height" secondItem="Ozb-tn-Uhn" secondAttribute="height" multiplier="0.2" id="may-hB-7sI"/>
+                            <constraint firstItem="qgg-gW-P6w" firstAttribute="centerX" secondItem="W2r-gM-Xms" secondAttribute="centerX" id="vkT-ja-qe5"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="W2r-gM-Xms"/>
                     </view>
                 </viewController>
@@ -23,4 +34,7 @@
             <point key="canvasLocation" x="-510" y="-449"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tictactoe" width="546.5" height="301"/>
+    </resources>
 </document>
