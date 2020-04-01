@@ -43,7 +43,7 @@
 		9ACF1A48242FE1BB00FA22B9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACF1A47242FE1BB00FA22B9 /* Login.storyboard */; };
 		9ACF1A4A242FE1C500FA22B9 /* Empty.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACF1A49242FE1C500FA22B9 /* Empty.storyboard */; };
 		9ACF1A4D242FE1CE00FA22B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACF1A4B242FE1CE00FA22B9 /* Main.storyboard */; };
-		9ACF1A5A242FE6DB00FA22B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ACF1A59242FE6DB00FA22B9 /* GoogleService-Info.plist */; };
+		9AFA3D3D2434FCCF00DFAE05 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AFA3D3C2434FCCF00DFAE05 /* GoogleService-Info.plist */; };
 		DA15D04B51DB5D88F3309FFA /* libPods-TicTacToeOnline.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B493D983BC05288A00BA1C /* libPods-TicTacToeOnline.a */; };
 /* End PBXBuildFile section */
 
@@ -88,7 +88,7 @@
 		9ACF1A47242FE1BB00FA22B9 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		9ACF1A49242FE1C500FA22B9 /* Empty.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Empty.storyboard; sourceTree = "<group>"; };
 		9ACF1A4C242FE1CE00FA22B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TicTacToeOnline/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9ACF1A59242FE6DB00FA22B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9AFA3D3C2434FCCF00DFAE05 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C09B8C615848C6C450E23297 /* Pods-TicTacToeOnline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToeOnline.release.xcconfig"; path = "Target Support Files/Pods-TicTacToeOnline/Pods-TicTacToeOnline.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,7 +143,7 @@
 				9ACF196C242F637300FA22B9 /* Assets.xcassets */,
 				9ACF196E242F637300FA22B9 /* LaunchScreen.storyboard */,
 				9ACF1971242F637300FA22B9 /* Info.plist */,
-				9ACF1A59242FE6DB00FA22B9 /* GoogleService-Info.plist */,
+				9AFA3D3C2434FCCF00DFAE05 /* GoogleService-Info.plist */,
 			);
 			path = TicTacToeOnline;
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 				9ACF196D242F637300FA22B9 /* Assets.xcassets in Resources */,
 				9ACF1A4D242FE1CE00FA22B9 /* Main.storyboard in Resources */,
 				9ACF1A4A242FE1C500FA22B9 /* Empty.storyboard in Resources */,
-				9ACF1A5A242FE6DB00FA22B9 /* GoogleService-Info.plist in Resources */,
+				9AFA3D3D2434FCCF00DFAE05 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
