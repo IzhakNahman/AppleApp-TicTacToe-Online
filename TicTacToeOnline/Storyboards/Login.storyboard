@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qXe-to-9L6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qXe-to-9L6">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -88,9 +88,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ABJ-7e-rj5"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Register" id="JdU-ey-vCI">
-                        <barButtonItem key="rightBarButtonItem" title="Login" id="7A3-lu-tQD"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Register" id="JdU-ey-vCI"/>
                     <connections>
                         <outlet property="emailTextField" destination="VYP-KW-NGf" id="qJQ-ST-ajb"/>
                         <outlet property="errorLabel" destination="OyQ-sG-gpF" id="5B7-tT-mOM"/>
@@ -229,10 +227,10 @@
             <point key="canvasLocation" x="-22" y="42"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="tictactoe" width="1093" height="602"/>
-    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="tGP-c4-Ri8"/>
     </inferredMetricsTieBreakers>
+    <resources>
+        <image name="tictactoe" width="546.5" height="301"/>
+    </resources>
 </document>
