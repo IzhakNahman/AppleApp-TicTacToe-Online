@@ -85,8 +85,8 @@
 		9ACF19F4242FDDC700FA22B9 /* OnlineGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineGameViewController.swift; sourceTree = "<group>"; };
 		9ACF19F6242FDDD000FA22B9 /* PlayerVsComputerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVsComputerViewController.swift; sourceTree = "<group>"; };
 		9ACF19F8242FDDDA00FA22B9 /* TwoPlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPlayersViewController.swift; sourceTree = "<group>"; };
-		9ACF1A47242FE1BB00FA22B9 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = TicTacToeOnline/Login.storyboard; sourceTree = "<group>"; };
-		9ACF1A49242FE1C500FA22B9 /* Empty.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Empty.storyboard; path = TicTacToeOnline/Empty.storyboard; sourceTree = "<group>"; };
+		9ACF1A47242FE1BB00FA22B9 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		9ACF1A49242FE1C500FA22B9 /* Empty.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Empty.storyboard; sourceTree = "<group>"; };
 		9ACF1A4C242FE1CE00FA22B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TicTacToeOnline/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9ACF1A59242FE6DB00FA22B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C09B8C615848C6C450E23297 /* Pods-TicTacToeOnline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToeOnline.release.xcconfig"; path = "Target Support Files/Pods-TicTacToeOnline/Pods-TicTacToeOnline.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,9 +115,6 @@
 		9ACF1957242F637200FA22B9 = {
 			isa = PBXGroup;
 			children = (
-				9ACF1A4B242FE1CE00FA22B9 /* Main.storyboard */,
-				9ACF1A49242FE1C500FA22B9 /* Empty.storyboard */,
-				9ACF1A47242FE1BB00FA22B9 /* Login.storyboard */,
 				9ACF1962242F637200FA22B9 /* TicTacToeOnline */,
 				9ACF1961242F637200FA22B9 /* Products */,
 				F11F9D89FDEC044E6837FAAC /* Pods */,
@@ -136,6 +133,7 @@
 		9ACF1962242F637200FA22B9 /* TicTacToeOnline */ = {
 			isa = PBXGroup;
 			children = (
+				9AD785472434DFE3000C954A /* Storyboards */,
 				9ACF1978242F640700FA22B9 /* View */,
 				9ACF1977242F640100FA22B9 /* Model */,
 				9ACF1979242F640B00FA22B9 /* Controller */,
@@ -213,6 +211,16 @@
 				9ACF19E8242FDD6700FA22B9 /* RegisterViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		9AD785472434DFE3000C954A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9ACF1A4B242FE1CE00FA22B9 /* Main.storyboard */,
+				9ACF1A49242FE1C500FA22B9 /* Empty.storyboard */,
+				9ACF1A47242FE1BB00FA22B9 /* Login.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		F11F9D89FDEC044E6837FAAC /* Pods */ = {
