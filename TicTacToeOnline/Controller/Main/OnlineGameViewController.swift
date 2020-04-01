@@ -540,7 +540,12 @@ class OnlineGameViewController: UIViewController {
             }
             
             alert.addAction(playAgainAction)
-            self.present(alert, animated:  true, completion: nil)
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
+                self.present(alert, animated:  true, completion: nil)
+            })
+           
+            
         }
     }
     
