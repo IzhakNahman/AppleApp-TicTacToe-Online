@@ -74,7 +74,7 @@ class OnlineGameManager {
         guard let room = gameroom,
             playersArray.count == 2,
             let firstPlayer = playersArray.first,
-            let index = self.getCurrentPlayerIndex() else{
+            let index = self.getCurrentPlayerIndex()  else{
             return
         }
         var _ : GamePlayer =  playersArray[index]
@@ -88,6 +88,17 @@ class OnlineGameManager {
         
         FirebaseManager.manager.updateOnlineGame(roomId: room.id, onlineGame: newGame)
         
+    }
+    
+    func updatePlayersArrayPlayAgainTofalse(){
+        guard let room = gameroom else {
+            return
+        }
+        playersArray.forEach { (player) in
+            var newPlayer = player
+            newPlayer.wantPlayAgain = false
+            FirebaseManager.manager.updateGamePlayer(roomId: room.id ,gamePlayer: newPlayer)
+        }
     }
     
     func updateGamePlayerPlayAgain(){

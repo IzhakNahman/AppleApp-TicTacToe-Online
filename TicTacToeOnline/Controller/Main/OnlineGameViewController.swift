@@ -371,7 +371,9 @@ class OnlineGameViewController: UIViewController {
         
          self.startWaitForPlayerTurn()
         
-        OnlineGameManager.game.updateGamePlayerPlayAgain()
+        //OnlineGameManager.game.updateGamePlayerPlayAgain()
+        
+        OnlineGameManager.game.updatePlayersArrayPlayAgainTofalse()
         
         guard OnlineGameManager.game.onlineGame != nil,
             let playerFirst = OnlineGameManager.game.playersArray.first ,
@@ -698,7 +700,12 @@ class OnlineGameViewController: UIViewController {
     private func waitingForPlayerTurnAnimation(){
         
         guard let playerId = OnlineGameManager.game.onlineGame?.playerTurnById,
-                let index = OnlineGameManager.game.getPlayerIndex(playerId:  playerId) else {
+            let index = OnlineGameManager.game.getPlayerIndex(playerId:  playerId), let currentPlayerIndex = OnlineGameManager.game.getCurrentPlayerIndex() else {
+            return
+        }
+        
+        if index == currentPlayerIndex {
+            self.waitingLabel.text = "Your turn"
             return
         }
         
